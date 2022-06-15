@@ -50,6 +50,16 @@ body .wrapper {
   font-size: 18px;
 }
 
+.left-side .container .tab-content #pills-portfolio .tab-content #pills-all {
+  overflow: scroll;
+}
+
+.left-side .container .tab-content #pills-portfolio .tab-content #pills-all .card {
+  width: 14rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
 .right-side {
   background: #2A3A6B;
 }

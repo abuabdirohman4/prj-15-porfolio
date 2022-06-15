@@ -15,4 +15,24 @@
             }
         }
     }
+    .container {
+        height: 87%;
+        .tab-content, .tab-pane, .d-flex {
+            height: 100%;
+        }
+        .tab-content {
+            #pills-portfolio {
+                .tab-content {
+                    #pills-all {
+                        overflow: scroll;
+                        .card {
+                            width: 14rem;
+                            margin-right: 1rem;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
